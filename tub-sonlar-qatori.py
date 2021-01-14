@@ -18,7 +18,7 @@ def tub_sonlar(n):
     qator = [True] * (n+1)
     for i in range(2, n+1):
         if (qator[i]):
-            out.append(i)
+            rezultat.append(i)
             for x in range(i, n+1, i):
                 qator[x] = False
     return rezultat  
